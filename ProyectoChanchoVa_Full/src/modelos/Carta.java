@@ -4,7 +4,7 @@ public class Carta {
     private int valor;
     private String palo;
 
-    public Carta(int valor, String palo) {
+    public Carta(String palo,int valor) {
         this.valor = valor;
         this.palo = palo;
     }

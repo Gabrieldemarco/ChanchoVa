@@ -2,10 +2,11 @@ package ui;
 
 import modelos.*;
 import javax.swing.*;
-import java.awt.*;
+
 
 public class PantallaLogin extends JFrame {
-    private JTextField tfUsuario;
+    private static final long serialVersionUID = 1L;
+	private JTextField tfUsuario;
     private JPasswordField pfPass;
 
     public PantallaLogin() {
